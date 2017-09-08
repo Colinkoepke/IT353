@@ -1,0 +1,78 @@
+body{ 
+	background-image: url("horsehead_nebula.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+ }
+
+ header{
+ 	border-bottom: .1px solid white;
+ }
+
+ p.mainHeader{
+ 	text-align: center;
+ 	font-size: 5em;
+ 	color: white;
+ 	margin-top: 1%;
+ 	font-family: 'Advent Pro';
+ 	font-weight: 700;
+
+ }
+
+ p.secondaryHeader {
+ 	margin-top: -5%;
+ 	font-family: 'Advent Pro';
+ 	font-weight: 300;
+ 	text-align: center;
+ 	font-size: 1.5em;
+ 	color: white;
+ }
+
+ nav {
+ 	position: relative;
+ 	margin-left: 74%;
+
+ }
+ .navBar li {
+ 	display: inline;
+ 	font-size: 1.45em;
+ 	padding: 3px 5px;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	font-weight: 700
+
+ }
+ .navBar a {
+ 	transition: color 0.75s ease;
+ 	color: #a101ad;
+ }
+
+ .navBar a:hover {
+ 	color: white;
+
+ }
+
+ p.aboutMeText {
+ 	color: white;
+ 	padding-right: 30%;
+ 	font-family: 'Alegreya Sans SC';
+ 	font-size: 1.2em;
+ 	margin-top: -2%;
+ }
+
+ h2.aboutMeHeader {
+ 	color: white;
+ 	font-family: 'Alegreya SC';
+ 	font-size: 40px;
+
+ }
+
+ ul.aboutMeList {
+ 	margin-top: -2%;
+ }
+
+ ul.aboutMeList li {
+ 	color: white;
+ 	font-size: 1.2em;
+ 	font-family: 'Alegreya Sans SC'
+ }
