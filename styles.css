@@ -60,19 +60,77 @@ body{
  	margin-top: -2%;
  }
 
- h2.aboutMeHeader {
+ h2.aboutMeHeader, h2.experienceHeader {
  	color: white;
  	font-family: 'Alegreya SC';
  	font-size: 40px;
 
  }
 
- ul.aboutMeList {
- 	margin-top: -2%;
+ ul.aboutMeList, ul.experienceList {
+ 	margin-top: -1%;
  }
 
- ul.aboutMeList li {
+ ul.aboutMeList li, ul.experienceList li {
  	color: white;
  	font-size: 1.2em;
  	font-family: 'Alegreya Sans SC'
+ }
+
+ h4.jobDesc {
+ 	color: white;
+ 	font-family: 'Alegreya SC';
+ 	font-size: 20px;
+ 	margin-top: -2%;
+
+ }
+
+ h1.sectionHeader {
+ 	color: white;
+ 	font-family: 'Alegreya SC';
+ 	font-size: 55px;
+ 	text-align: center;
+ }
+
+ #formMessage {
+ 	font-size: 50px;
+ 	text-align: center;
+ 	color: white;
+ }
+
+ label{
+ 	color: white;
+ 	position: relative;
+ 	margin-left: 30%;
+ 	font-size: 2em;
+ 	font-family: Arial;
+ }
+
+ .inputField{
+ 	 color: blue;
+ 	 font-size: 12px;
+ 	 position: fixed;
+ 	 margin-left: 2%;
+
+ }
+
+ .messageBox{
+ 	height: 100px;
+ 	width: 400px;
+ 	font-size: 16px;
+ }
+
+ button {
+ 	background-color: #a101ad;
+ 	position: absolute;
+ 	margin-left: 42%;
+ 	height: 40px;
+ 	width: 160px;
+ 	transition: background-color 0.75s ease;
+ 	color: black;
+ }
+
+ button:hover {
+ 	background-color: black;
+ 	color: white;
  }
